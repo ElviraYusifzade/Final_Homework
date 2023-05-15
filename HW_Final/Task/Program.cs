@@ -12,7 +12,7 @@ void array(string [] stringArray)
   for (int i = 0;i<stringArray.Length;i++)
   {
      Console.WriteLine($"Enter {i+1} array elements");
-     stringArray[i] = Console.ReadLine();
+     stringArray[i] = (Console.ReadLine()!);
   }
 }
     string [] symbol(string [] stringArray)
